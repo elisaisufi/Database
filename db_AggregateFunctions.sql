@@ -172,5 +172,3 @@ SELECT student.student_name, course.course_name
 FROM student
          INNER JOIN enrollment ON student.student_id = enrollment.student_id
          INNER JOIN course ON enrollment.course_id = course.id;
-INNER JOIN enrollment ON student.student_id = enrollment.student_id
-INNER JOIN course ON enrollment.course_id = course.id;
